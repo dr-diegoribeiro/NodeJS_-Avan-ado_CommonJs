@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div style="background:teal; width: 500px; height: 230px; text-align: center;"> <br>
+
+        <a style="color: white;" href="/">Home</a>
+        <a style="color: white;" href="/front">Front</a>
+        <a style="color: white;" href="/back">Back</a>
+        <a style="color: white;" href="/cadastro">Cadastro</a>
+
+    <h1 style="color:white; font-size: 40px; font-weight:bold;">Cadastre a Tecnologia</h1>
+    <div style="color: white;">
+    <form method="post" action="/cadastro/salvar">
+        Categoria: <input type="text" placeholder="Front OU Back ?" name="categoria"> <br/>
+        Conteudo: <input type="text" name="conteudo"> <br/>
+        <input type="submit">
+    </form>
+   
+    </div>
+</body>
+</html>
